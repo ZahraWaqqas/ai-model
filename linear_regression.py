@@ -19,9 +19,9 @@ def gradient_descent(X, y, m, c, learning_rate, epochs):
         c -= learning_rate * dc
     return m, c
 
-# Sample data: Study hours vs Exam scores
-X = np.array([1, 2, 3, 4, 5], dtype=float)
-y = np.array([35, 50, 65, 80, 95], dtype=float)
+# Data collected by self, Sleep Hours VS Average Energy Levels
+X = np.array([6, 7, 8, 9, 7, 6, 4, 5, 5, 11], dtype=float)
+y = np.array([3.22, 2.76, 3, 3, 2.82, 2.77, 2.5, 2.68, 2.42, 2.53], dtype=float)
 
 # Initialize parameters
 m_curr = 0.0
